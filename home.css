@@ -1,0 +1,124 @@
+div{
+    height: 100px;
+    width: 100px;
+    
+}
+.bloc1{
+    background: grey;
+    width: 1520px;
+    height: 640px;
+    
+}
+.bloc2{
+    background: grey;
+    margin: 0;
+    height: 350px;
+    display: inline-block;
+    float: left;
+   
+}
+.bloc3{
+    background: gainsboro;
+    display: flex;
+    width: 1420px;
+    height: 350px;
+    margin: 0;
+    word-spacing: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: darkgreen;
+    margin: 60px;
+    height: 260px;
+    width: 1300px;
+    font-family: 'Lato', sans-serif;
+
+}
+p{
+    font-family: 'Comic Neue', cursive;
+    color: orangered;
+    width: 150px;
+    font-size: 24px;
+}
+.div1 {
+    height: 230px;
+    width: 230px;   
+}
+
+
+.bloc4{
+    background-color: orangered;
+    width: 780px;
+    height: 100px;
+    margin: 120px;
+    
+}
+s{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     margin-top: auto;
+    
+}
+.bloc5{
+    background-color: orangered;
+    width: 780px;
+    height: 100px;
+    margin: 120px;
+    
+}
+
+.blo{
+    text-align: center;
+    display: flex;
+    margin-top: auto;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.bloc6{
+    background-color: orangered;
+    width: 780px;
+    height: 100px;
+    margin: 120px;
+    
+}
+.bloc7{
+    background-color: orangered;
+    width: 780px;
+    height: 100px;
+    margin: 120px;
+}
+
+
+#bloc-rose{
+    background: grey;
+    margin: 80px auto;
+    height: 350px;
+    width: 700px;
+    
+}
+
+
+.blu{
+    background: gainsboro;
+    margin: 75px auto;
+    height: 450px;
+    width: 1500px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blu p {
+    text-align: center;
+    margin: 0;
+    font-family: 'Changa One', cursive;
+}
+
+
+
