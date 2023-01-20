@@ -4,6 +4,8 @@ font-family: 'Changa One', cursive; */
 /* BASE */
 @import './ourChefs.css';
 @import './footer.css';
+@import './team.css';
+@import 'contacts.css';
 
 :root {
     --text-color: #212121;
@@ -12,6 +14,7 @@ font-family: 'Changa One', cursive; */
     --footer-background-color: #2F303A;
     --main-background-color: #FFFFFF;
     --color-button: #ea5259;
+    --bg-input-color: #dcd8d8;
      }  
 
 *,
@@ -82,12 +85,12 @@ img{
    height: auto;
 }
 
-p{
+p,input,textarea,label{
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--main-background-color);
+    color: var(--text-color);
     text-decoration: none;
     list-style: none;
 }
