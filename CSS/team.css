@@ -1,0 +1,4 @@
+.our-chefs__items--margin{
+    margin:15px;
+    flex-basis:calc((100% - 6*15px)/3);
+}
