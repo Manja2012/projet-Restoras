@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Lato:wght@400;700;900&family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <section>
+        <div class="container contacts flex">
+            <div class="form">
+                <form class="form__cb" name="call-back-form" action="#" autocomplete="off" novalidate>
+                    <h1 class="form__title">Get in Touch</h1> 
+                    <p class="form__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos doloremque eum nobis ipsum, nesciunt amet molestiae consectetur. Culpa, blanditiis odio ut vel unde, quia nesciunt
+                       dolores qui atque consequuntur quasi.</p>
+                    <div class="flex">
+                        <div class="form__name">
+                            <label class="form__label" for="contact-first-name">first name</label>
+                            <input class="form__input" id="contact-first-name" type="text" autofocus 
+                            name="contact-first-name"placeholder="Your First Name">  
+                        </div>
+                        <div class="form__name">
+                            <label class="form__label" for="contact-last-name">last name</label>
+                            <input class="form__input" id="contact-last-name" type="text" autofocus 
+                            name="contact-last-name"placeholder="Your Last Name">   
+                        </div>
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label" for="contact-comment">your message</label>
+                        <textarea class="form__comment" name="contact-comment" id="contact-comment" rows="9"
+                         placeholder="Write your message"></textarea>
+                    </div>
+                    <div class="flex__form">
+                       <div class="form__email">
+                            <label class="form__label" for="contact-email">e-mail</label>
+                            <input class="form__input" id="contact-email" type="email" 
+                            name="contact-email" placeholder="Write your email">
+                        </div> 
+                        <div class="form__button--flex">
+                          <button class="footer-button form__button" type="submit">send message</button>  
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>    
+            <div class="informations">
+                <div>
+                    <h2 class="informations__title decoration">follow us</h2>
+                    <ul class="social flex">
+                            <li class="social__item">
+                                <a href="#" class="social__link informations__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                               <a href="#" class="social__link informations__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                               </a>
+                            </li>
+                            <li class="social__item">
+                               <a href="#" class="social__link informations__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-google-plus">
+                                        </use>
+                                    </svg>
+                               </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link informations__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="information__contacts-title decoration">phone</h2>
+                    <div class="flex">
+                        <svg width="20" height="20" class="social__icon social__icon--color">
+                            <use href="./images/icons.svg#icon-phone">
+                            </use>
+                        </svg>
+                        <p>1-800-1234-567</p> 
+                    </div> 
+                </div>
+                <div>
+                    <h2 class="information__contacts-title decoration">address</h2>
+                    <div class="flex">
+                        <svg width="20" height="20" class="social__icon social__icon--color">
+                            <use href="./images/icons.svg#icon-location">
+                            </use>
+                        </svg>
+
+                        <p>267 Park Avenue New York, <br> NY 90210</p> 
+                    </div>
+                </div>
+                    <div>
+                        <h2 class="information__contacts-title decoration">opening hours</h3>
+                        <div>
+                            <span>
+                                <svg width="20" height="20" class="footer-menu__icon" >
+                                    <use href="./images/icons.svg#icon-clock">
+                                    </use>
+                                </svg>
+                            </span>
+                            <span class="footer-menu__time">9:00am-7:00pm</span>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

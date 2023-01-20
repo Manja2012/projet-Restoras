@@ -63,6 +63,7 @@
     margin-bottom: 20px;
 }
 .footer-menu__icon{
+    margin-right: 12px;
     fill: var(--accent-color);
 }
 .footer-menu__time{
@@ -87,7 +88,7 @@
     color: var(--main-background-color);
 }
 .footer-form__input{
-   margin-right: 18px;
+    margin-right: 18px;
     padding: 14px 10px;
     border-radius: 20px;
     border: transparent;

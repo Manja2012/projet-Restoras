@@ -1,0 +1,116 @@
+.contacts{
+   justify-content: center;
+}
+.form{
+    width: 50%;
+    margin-right: 20px;
+}
+.form__title{
+    margin-bottom: 12px;
+    text-align: center;
+   
+    color: var(--text-color);
+
+    /* @media screen and (min-width:1200px){
+    line-height: 1.15;
+    } */
+}
+.form__text{
+    width: 80%;
+    margin: 0 auto;
+}
+.form__name{
+    width: 50%;
+}
+.form__label{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    color: var(--text-footer-color);
+    text-transform: uppercase;
+}
+.form__input{
+    padding: 14px 10px;
+    width: 90%;
+    height: 40px;
+
+    border-radius: 20px;
+    border: transparent;
+
+    background-color: var(--bg-input-color);
+    color: var(--text-color);
+    cursor: pointer;
+
+    transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    .form__input:hover,
+    .form__input:focus{
+    border: 1px solid var(--accent-color);
+    outline: 1px solid var(--accent-color);
+    }
+.form__comment{
+    display: block;
+    width: 90%;
+    height: 80px;
+    padding: 16px 12px ;
+
+    resize: none;
+    
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    background-color: var(--bg-input-color);
+
+    transition:border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    .form__comment:hover,
+    .form__comment:focus{
+    border: 1px solid var(--accent-color);
+    outline: 1px solid var(--accent-color);
+    }
+.form__email{
+    width: 50%;
+}
+.form__button{
+   justify-content: center;
+    min-width: 100px;
+
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    }
+.flex__form{
+    display: flex;
+}
+.form__button--flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.form__button:hover,
+.form__button:focus{
+     background-color: var(--color-button); 
+}
+.informations__title{
+    color: var(--text-color); 
+}
+.informations__link:hover, 
+.informations__link:focus{
+    color: var(--accent-color);
+}
+.information__contacts-title{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    color: var(--text-color);  
+}
+.decoration{
+    border-bottom: 2px solid var(--bg-input-color);
+}
+.social__icon--color{
+    margin-right: 15px;
+    fill: var(--accent-color);
+}
