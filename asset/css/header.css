@@ -46,3 +46,75 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.flex{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.flexb{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header{
+    height: 10vh;
+   margin: 10px;
+}
+.containereader{
+    height: 90%;
+    width: 66.66%;
+    margin:  50px;
+}
+.zlogo{
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.logo{
+    width: 70px;
+    height: 25px;
+    padding-top: 20px;
+}
+nav{
+    width: 35%;
+    padding-top: 20px;
+   
+}
+.liste{
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Changa one', cursive; 
+    transition: 1s;
+}
+.border{
+    border-left: 1px black dotted;
+}
+.fleche{
+    width: 10px;
+    height: 10px;
+    padding-right:  2px ;
+}
+.tel{
+    width: 15%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.boitier{
+    height: 25px;
+    width: 25px;
+    margin: 5px; 
+}
+.numero{
+    padding-top: 10px;
+    font-weight: 0;
+    font-size: 16px;
+    font-family: 'Changa one', cursive;
+    color: #000000;
+}
