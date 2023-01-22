@@ -1,6 +1,4 @@
-.contacts-section{
-    padding-top: 100px;
-}
+
 .contacts{
    justify-content: center;
 }
@@ -14,9 +12,7 @@
    
     color: var(--text-color);
 
-    /* @media screen and (min-width:1200px){
-    line-height: 1.15;
-    } */
+  
 }
 .form__text{
     width: 80%;
