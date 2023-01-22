@@ -5,7 +5,12 @@ font-family: 'Changa One', cursive; */
 @import './ourChefs.css';
 @import './footer.css';
 @import './team.css';
-@import 'contacts.css';
+@import './contacts.css';
+@import'./home-page.css';
+@import'./header.css';
+@import'./blog.css';
+@import'./menu.css';
+
 
 :root {
     --text-color: #212121;
@@ -22,6 +27,7 @@ font-family: 'Changa One', cursive; */
 *::after{
     box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -36,6 +42,10 @@ ul{
 li{
    list-style: none;   
 }
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +56,7 @@ li{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-/* 
+
     @media screen and (min-width:480px){
        width: 480px;
     }
@@ -57,7 +67,7 @@ li{
 
     @media screen and (min-width:1200px){
       width: 1200px;
-   } */
+   }
 }
 body {
    font-family: Roboto, sans-serif ;
@@ -79,11 +89,7 @@ body {
 header{
    border-bottom: 1px solid var(--border-color);
 }
-img{
-   display: block;
-   max-width: 100%;
-   height: auto;
-}
+
 
 p,input,textarea,label{
     font-family: 'Lato', sans-serif;
@@ -95,8 +101,8 @@ p,input,textarea,label{
     list-style: none;
 }
 h1,h2,h3{
-    font-family:'Changa One', cursive;
-    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.61;
     letter-spacing: 0.06em;

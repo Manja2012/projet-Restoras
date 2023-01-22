@@ -213,11 +213,6 @@ main{
     border-top: 3px solid rgb(79, 75, 75);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
-.Liste-Fildar{
-    -webkit-text-fill-color: #ffffff;
-    margin: 2px;
-    transition: 1s;
-}
 .GoPage{
     -webkit-text-fill-color: #ffffff;
     text-decoration: none;
@@ -288,8 +283,8 @@ main{
     padding: 110px;  
 }
 .Cta-Cmd{
-    width: 220px;
-    height: 30px;
+    padding: 10px 32px;
+ 
     border-radius: 30px;
     background-color: #f69e06;
     color: white;
@@ -319,8 +314,7 @@ main{
     color: #ffffff;
 }
 .Cta-Voir{
-    width: 120px;
-    height: 25px;
+    padding: 10px 32px;
     border-radius: 30px;
     padding-top: 11px;
     background-color: rgba(red, green, blue, 0) ;
@@ -328,7 +322,7 @@ main{
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-top: 6px;
+    
     font-weight: 1000;
     font-family: 'Lato', sans-serif;
     font-size: 19px;
