@@ -5,8 +5,12 @@ font-family: 'Changa One', cursive; */
 @import './ourChefs.css';
 @import './footer.css';
 @import './team.css';
-@import 'contacts.css';
-@import'home-page.css';
+@import './contacts.css';
+@import'./home-page.css';
+@import'./header.css';
+/* @import'./blog.css'; */
+@import'./menu.css';
+@import'./baspage.css';
 
 :root {
     --text-color: #212121;
@@ -23,6 +27,29 @@ font-family: 'Changa One', cursive; */
 *::after{
     box-sizing: border-box;
 }
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
 h1,
 h2,
 h3,
@@ -51,7 +78,7 @@ section{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-/* 
+
     @media screen and (min-width:480px){
        width: 480px;
     }
@@ -62,7 +89,7 @@ section{
 
     @media screen and (min-width:1200px){
       width: 1200px;
-   } */
+   }
 }
 body {
    font-family: Roboto, sans-serif ;
