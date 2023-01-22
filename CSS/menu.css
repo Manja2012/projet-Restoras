@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: Changa one;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------HEADER-----------------------*/
+
+.Flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    
+    header{
+        height: 10vh;
+        margin: 10px;
+    }
+    
+    /*--------------LOGO-----------------*/
+    .BoxLogo{
+        width: 10%;
+       text-align: end;
+    }
+    
+    .Logo{
+        width: 90px;
+        height: 30px;
+        padding-top: 15px;
+    }
+    
+    /*----------------NAV----------------*/
+    
+    nav{
+        width: 35%;
+        padding-top: 20px;
+       
+    }
+    .ListeNav{
+        color: #000000;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 16px;
+        font-family: 'Changa one', cursive; 
+        transition: 1s;
+    }
+        .ListeNav:hover{
+            color: #554b42;
+            font-size: 14px;
+            filter: brightness(0.8);
+        }
+    .Border{
+        border-left: 1px black dotted;
+    }
+    .Fleche{
+        width: 10px;
+        height: 10px;
+        padding-right:  2px;
+    }
+    
+    /*----------------TEL-----------------*/
+    .BoxTel{
+        width: 15%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .LogoTel{
+        height: 25px;
+        width: 25px;
+        margin: 5px; 
+    }
+    .Numero{
+        padding-top: 10px;
+        font-weight: 0;
+        font-size: 16px;
+        font-family: 'Changa one', cursive;
+        color: #000000;
+    }
+
+/*-----------------------MENU PAGE--------------------*/
+.FlexT-B{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-weight: 90;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif; 
+    transition: 1s;  
+    color: white;
+}
+h2{
+    font-weight: 0;
+    font-size: 34px;
+    font-family: 'Lato', sans-serif; 
+    transition: 1s;  
+    color: white;
+    padding-bottom: 7px;
+}
+main{
+    height: auto;
+    background: white;
+}
+
+/*------------Top--------------*/
+
+.Top{
+    height: 30%;
+    width: 30%;
+    margin: auto;
+    padding-top: 120px;
+}
+.ContainerT-B{
+    height: 304px;
+    background-image: url(../images/bg-image-breadcrumbs.jpg); 
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 100px auto 0;
+    border-bottom: 3px solid rgb(79, 75, 75);
+    border-top: 3px solid rgb(79, 75, 75);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+li{
+    -webkit-text-fill-color: #ffffff;
+    margin: 2px;
+    transition: 1s;
+}
+.GoPage{
+    -webkit-text-fill-color: #ffffff;
+    text-decoration: none;
+}
+    .GoPage:hover{
+        -webkit-text-fill-color: #f69e06;
+    } 
+
+svg{
+    height: 30px;
+    width: 15px;
+    padding-top: 5px;
+}
+
+/*-----------------MENU-----------------*/
+
+.ContainerMenu{
+    width: 80%;
+    height:800px;
+    background-color: white; 
+    padding-top: 100px;
+    margin: auto;
+}
+.MargeMenu{
+   height: 530px;
+   width: 100%;
+   background: linear-gradient(rgb(187, 182, 182), 60%,rgb(0, 0, 0));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid rgb(79, 75, 75);
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+}
+.Menu{
+    height: 90%;
+    width: 90%;
+    border: 1px solid rgb(228, 223, 223);
+    background: rgb(187, 182, 182);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    text-align: start;
+    box-sizing: border-box;
+    padding: 0 0 0 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+    .Grid-cell{
+    text-align: center;
+    justify-self: start;
+    }
+.Rec{
+    font-weight: 0;
+    font-size: 10px;
+    font-family: 'Changa one',cursive; 
+    color: rgb(228, 223, 223);
+}
+.Choix{
+    padding: 40px 10px 20px;
+}
+
+/*-------------CTA-CMD---------------*/
+
+.Commander{
+    display: flex;
+    justify-content: center;
+    padding: 110px;  
+}
+.Cta-Cmd{
+    width: 220px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #f69e06;
+    color: white;
+    border: 3px solid #ffffff ;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 9px;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+    .Cta-Cmd:hover{
+    transform: scale(1.1);
+    }
+
+/*------------------BOTTOM MENU---------------------*/
+.Separateur{
+    width: 10px;
+    height: 2px;
+    background: #f69e06;
+    margin: 0 5px;
+}
+.P{
+    color: #ffffff;
+}
+.Cta-Voir{
+    width: 120px;
+    height: 25px;
+    border-radius: 30px;
+    padding-top: 11px;
+    background-color: rgba(red, green, blue, 0) ;
+    border: 2px solid #ffffff ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 6px;
+    font-weight: 1000;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    transition: 1s;
+    margin-left:  35px;
+    margin-top: 7px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+    .Cta-Voir:hover{
+  transform: scale(1.2); 
+    }
