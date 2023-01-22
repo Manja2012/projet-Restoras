@@ -1,24 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
     <html lang="fr">
         <head>
             <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Travail en equipe</title>
-            <meta NAME="description" content="Laetitia, Mariana et Yann travaillent ensemble et avec l'aide de GitHub ils sont en distanciel. ">
+            <meta name="description" content="Laetitia, Mariana et Yann travaillent ensemble et avec l'aide de GitHub ils sont en distanciel. ">
             <link rel="stylesheet" href="./CSS/style.css">
             <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
@@ -27,11 +15,17 @@
         </head>
 <body>
     <header>
-        <section class="Flex section__header">
+        <section class="Flex logo__header section__header">
             <div class="BoxLogo">
-                <img class="logo" src="./images/logo-280x60.png" alt="logoresto">
+                <img class="logo " src="./images/logo-280x60.png" alt="logoresto">
             </div>
-            <nav>
+            <div class="mobil-menu">
+                <svg width="80" height="80" class="social__icon">
+                    <use href="./images/icons.svg#icon-menu">
+                    </use>
+                </svg>
+            </div>
+            <nav class="nav_header">
                 <ul class="Flex">
                     <li><a href="./index.html"class="ListeNav"> Accueil <img  class="Fleche" src="./images/Expand Arrow.png" alt="fleche bas"></a> 
                         <ul class="Sous-Menu">
@@ -58,7 +52,7 @@
                     <li><a href="./contacts.html"class="ListeNav Border "> Contact </a></li>
                 </ul>
             </nav>
-            <div class="BoxTel">
+            <div class="BoxTel nav_header">
                 <img class="LogoTel" src="./images/Tel.svg">
                 <p class="Numero"> +33 6 13 07 58 95 </p>
             </div>
@@ -101,7 +95,10 @@
                             <p class="about-Restoral__name">clients everyday</p>
                         </div>
                     </div>
-                    <button class="footer-button main__button" type="button">see our menu</button>
+                    <div class="mobil__button">
+                     <button class="footer-button main__button" type="button">see our menu</button>   
+                    </div>
+                    
                 </div>
             </div>
         </section> 
@@ -229,7 +226,7 @@
             <div class="cotainer"> 
                 <h1 class="hidden">Restoral</h1>
                 <h2 class="our-chefs__title">Our Chefs</h2>
-                <ul class="flex">
+                <ul class="flex our-chefs__mobil">
                     <li class="our-chefs__items">
                         <img class="our-chefs__photo" src="./images/team-small-3-250x250.jpg" alt="Orni Stark">
                         <h3 class="our-chefs__name">Orni Stark</h3>
