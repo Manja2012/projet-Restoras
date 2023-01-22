@@ -35,68 +35,72 @@ header{
 nav{
     width: 35%;
     padding-top: 20px;
+    position: sticky;
    
+}
+nav .ListeNav{
+    display: block;
+    text-decoration: none;
+    color: #000000;
 }
 .ListeNav{
     color: #000000;
     text-align: center;
     text-decoration: none;
-    padding: 5px;
     font-size: 16px;
-    font-family: 'Changa one', cursive; 
-    transition: 1s;
+    font-family: 'Changa one', cursive;
+    padding: 5px;
+    transition: 0.2s; 
 }
-    .ListeNav:hover{
-        color: #554b42;
-        font-size: 14px;
-        filter: brightness(0.8);
+  nav .ListeNav:hover{
+    color: #f69e06;
+    text-decoration: underline 2px #cb8205;
     }
+
 .Border{
     border-left: 1px black dotted;
 }
 .Fleche{
     width: 10px;
     height: 10px;
-    padding-right:  2px;
+   
 }
-
-
-
+/*----------Menu Deroulant-----------*/
 .Sous-Menu{
     display: none;
     background: white;
     position: absolute;
     z-index: 1000;
 }
-nav > ul li:hover .Sous-Menu{
-    display: block;
-}
+    nav > ul li:hover .Sous-Menu{
+        display: block;
+    }
 .Sous-Menu li{
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
-
-.Sous-menu a{
-   background: #f69e06; 
+.Sous-Menu a{
+   background: #ffffff; 
 }
 
 nav ul li{
 position: relative;
-
 }
 .d{
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     text-decoration: none;
-    color: #f69e06;
-    padding-top: 2px;
+    color: #000000;
 }
-
-
-
-
-
+/*.deroulant{
+    padding-bottom: 5px;
+}*/
+    .deroulant :hover{
+        text-decoration: underline 1px #f69e06;
+        color: #f69e06;
+    }
 
 /*----------------TEL-----------------*/
+
 .BoxTel{
     width: 15%;
     padding-top: 20px;
