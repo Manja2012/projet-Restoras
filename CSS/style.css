@@ -8,9 +8,9 @@ font-family: 'Changa One', cursive; */
 @import './contacts.css';
 @import'./home-page.css';
 @import'./header.css';
-/* @import'./blog.css'; */
+@import'./blog.css';
 @import'./menu.css';
-@import'./baspage.css';
+
 
 :root {
     --text-color: #212121;
@@ -27,29 +27,7 @@ font-family: 'Changa One', cursive; */
 *::after{
     box-sizing: border-box;
 }
-/* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} */
+
 h1,
 h2,
 h3,
@@ -111,11 +89,7 @@ body {
 header{
    border-bottom: 1px solid var(--border-color);
 }
-img{
-   display: block;
-   max-width: 100%;
-   height: auto;
-}
+
 
 p,input,textarea,label{
     font-family: 'Lato', sans-serif;
@@ -127,8 +101,8 @@ p,input,textarea,label{
     list-style: none;
 }
 h1,h2,h3{
-    font-family:'Changa One', cursive;
-    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.61;
     letter-spacing: 0.06em;

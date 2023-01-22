@@ -24,11 +24,11 @@ header{
    text-align: end;
 }
 
-.Logo{
-    width: 40%;
+/* .Logo{
+    width: 50%;
 
     padding-top: 15px;
-}
+} */
 
 /*----------------NAV----------------*/
 
@@ -68,7 +68,7 @@ nav .ListeNav{
 /*----------Menu Deroulant-----------*/
 .Sous-Menu{
     display: none;
-    background: white;
+    background: transparent;
     position: absolute;
     z-index: 1000;
 }
@@ -80,7 +80,7 @@ nav .ListeNav{
     text-align: center;
 }
 .Sous-Menu a{
-   background: #ffffff; 
+   background: transparent; 
 }
 
 nav ul li{
@@ -91,9 +91,9 @@ position: relative;
     text-decoration: none;
     color: #000000;
 }
-/*.deroulant{
+.deroulant{
     padding-bottom: 5px;
-}*/
+}
     .deroulant :hover{
         text-decoration: underline 1px #f69e06;
         color: #f69e06;

@@ -70,7 +70,9 @@ nav{
 } */
 
  /* main-photo */
-
+.section__header{
+    padding-top: 0;
+}
 .main__section{
     /* width: 100%; */
     margin-top: 70px;
@@ -82,20 +84,19 @@ nav{
     background-size: cover;
     background-position: center;
     align-items: center;
-    padding: 100px auto 0;
+    padding: 0 auto;
 }
 .main{
     width: 30%;
     display: flex;
     padding-top: 200px;
-    
 }
 .main-photo__text{
     font-weight: 200;
     font-size: 26px;
     line-height: 1.61;
     letter-spacing: 0.06em;
-    font-family:'Changa One', cursive;
+   
     color: var(--main-background-color);
 }
 .main__decor{
@@ -110,6 +111,9 @@ nav{
     width: 10%;
 }
 .about-Restoral__photo{
+    display: block;
+  
+    height: auto;
     width: 40%;
     padding-left: 15px;
     padding-right: 15px;
@@ -233,7 +237,14 @@ nav{
 } 
 
 /* testimonials */
-
+.our-testimonials{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+    color: var(--text-color);
+ 
+}
 .testimonials__item{
     width: 33%;
     text-align: center;
@@ -259,4 +270,38 @@ nav{
 }
 .testimonials__name{
     color: var(--text-footer-color);
+}
+/* Partner */
+
+.ContainerPartner{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.ContainerPartner__title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+    color: rgb(11, 11, 11);
+    margin-bottom: 0;
+}
+.ContainerPartner__text{
+    margin-top: 20px;
+
+    color: #989090;
+    font-family: 'Changa one', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+.Flex{
+    display: flex;
+    justify-content: space-evenly;  
+}
+.LogoPartenaire{
+    height: 70px;
+    margin: 40px 100px 80px;
+}
+.Photo{
+    border-top: 2px solid rgb(79, 75, 75);
+    border-bottom: 2px solid rgb(79, 75, 75);
 }

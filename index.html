@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Lato:wght@400;700;900&family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="./CSS/style.css">
-</head>
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <title>Travail en equipe</title>
+            <meta NAME="description" content="Laetitia, Mariana et Yann travaillent ensemble et avec l'aide de GitHub ils sont en distanciel. ">
+            <link rel="stylesheet" href="./CSS/style.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Langar&family=Lato:wght@400;700;900&family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+        </head>
 <body>
     <header>
-        <section class="Flex">
+        <section class="Flex section__header">
             <div class="BoxLogo">
-                <img class="Logo" src="./images/logo-280x60.png" alt="logoresto">
+                <img class="logo" src="./images/logo-280x60.png" alt="logoresto">
             </div>
             <nav>
                 <ul class="Flex">
-                    <li><a href=""class="ListeNav"> Accueil <img  class="Fleche" src="./images/Expand Arrow.png" alt="fleche bas"></a> 
+                    <li><a href="./index.html"class="ListeNav"> Accueil <img  class="Fleche" src="./images/Expand Arrow.png" alt="fleche bas"></a> 
                         <ul class="Sous-Menu">
                             <li class="deroulant"><a class="d" href=""> ????? </a></li>
                             <li class="deroulant"><a class="d" href=""> %%%%%% </a></li>
@@ -31,16 +29,16 @@
                     <li><a href="./team.html"class="ListeNav Border"> A Propos de Nous </a></li>
                     <li class="deroulant"><a href="./menu.html"class="ListeNav Border"> Menu <img  class="Fleche" src="./images/Expand Arrow.png" alt="fleche bas"></a>
                         <ul class="Sous-Menu">
-                            <li class="deroulant"><a href=""> ????? </a></li>
-                            <li class="deroulant"><a href="">%%%%%% </a></li>
-                            <li class="deroulant"><a href=""> !!!!!!! </a></li>
+                            <li class="deroulant"><a class="d" href="">Pizzas </a></li>
+                            <li class="deroulant"><a class="d" href="">Burgers </a></li>
+                            <li class="deroulant"><a class="d" href="">Tartines </a></li>
                         </ul>
                     </li>
-                    <li class="deroulant"><a href="./html/blog.html"class="ListeNav Border"> Blog <img  class="Fleche" src="./images/Expand Arrow.png" alt="fleche bas"></a> 
+                    <li class="deroulant"><a href="./blog.html"class="ListeNav Border"> Blog <img  class="Fleche" src="./images/Expand Arrow.png" alt="fleche bas"></a> 
                         <ul class="Sous-Menu">
-                            <li><a href=""> ????? </a></li>
-                            <li><a href=""> %%%%%% </a></li>
-                            <li><a href=""> !!!!!! </a></li>
+                            <li class="deroulant"><a class="d" href=""> blabla  </a></li>
+                            <li class="deroulant"><a class="d" href=""> ohohoh </a></li>
+                            <li class="deroulant"><a class="d" href=""> hihihih </a></li>
                         </ul>
                     </li>
                     <li><a href="./contacts.html"class="ListeNav Border "> Contact </a></li>
@@ -68,9 +66,9 @@
             <h1 class="hidden">Restoral</h1>
             <div class="about-Restoral flex">
                 <div class="about-Restoral__left"></div>
-                <div class="about-Restoral__photo">
-                    <img src="./images/about-1.png" alt="about us">
-                </div>
+                
+                    <img class="about-Restoral__photo" src="./images/about-1.png" alt="about us">
+                
                 <div class="about-Restoral__description">
                     <h2 class="about-Restoral__title">About Restoral</h2>
                     <p class="about-Restoral__text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -341,8 +339,8 @@
         </section>
         
 <section class="ContainerPartner">
-    <h2>Nos Partenaires</h2>
-    <p>Nous sommes fieres de vous servir une cuisine de qualite,<br> nous devons notre reussite a des partenaires passionnes et qui partagent nos valeurs.</p>
+    <h2 class="ContainerPartner__title">Nos Partenaires</h2>
+    <p class="ContainerPartner__text">Nous sommes fieres de vous servir une cuisine de qualite,<br> nous devons notre reussite a des partenaires passionnes et qui partagent nos valeurs.</p>
     <div class="Flex LogoPartenaire">
         <img src="./images/brand-1-128x111.png">
         <img src="./images/brand-2-129x102.png">
@@ -351,14 +349,14 @@
     </div>
 </section> 
 <section class="Flex photo">
-    <img src="./images/index-gallery-2-480x394.jpg">
-    <img src="./images/index-gallery-2-480x394.jpg">
+    <img class="Photo" src="./images/index-gallery-2-480x394.jpg">
+    <img class="Photo" src="./images/index-gallery-2-480x394.jpg">
     <img class="Photo" src="./images/index-gallery-2-480x394.jpg">
     <img class="Photo" src="./images/index-gallery-2-480x394.jpg">
 </section>
         <section>
             <div class="cotainer">
-                <h1>Our Testimonials</h1>
+                <h1 class="our-testimonials">Our Testimonials</h1>
                 <div class="testimonials flex">
                     <div class="testimonials__item">
                         <img class="testimonials__photo" src="./images/testimonials-06-104x104.jpg" alt="testimonials">
