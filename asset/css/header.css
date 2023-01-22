@@ -47,11 +47,11 @@ table {
 	border-spacing: 0;
 }
 
-.flex{
+/* .flex{
 display: flex;
 align-items: center;
 justify-content: space-evenly;
-}
+} */
 
 .flexb{
     display: flex;

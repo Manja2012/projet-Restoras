@@ -1,3 +1,11 @@
+ .chefs_bg{
+    height: 304px;
+    background-image: url(../images/bg-image-breadcrumbs.jpg); 
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 100px auto 0;
+ }
  .our-chefs__title{
     margin-bottom: 32px;
 

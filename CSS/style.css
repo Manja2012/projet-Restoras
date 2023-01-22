@@ -6,6 +6,7 @@ font-family: 'Changa One', cursive; */
 @import './footer.css';
 @import './team.css';
 @import 'contacts.css';
+@import'home-page.css';
 
 :root {
     --text-color: #212121;
@@ -35,6 +36,10 @@ ul{
 }
 li{
    list-style: none;   
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .flex{
     display: flex;

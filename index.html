@@ -14,57 +14,406 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
- <section>
-    <div>
+    <header>
+        <section class="containerheader flex__header">
+           <a class="Zlogo" href="./index.html">
+                <img class="logo__header" src="./images/logo-280x60.png" alt="logoresto">
+           </a>
+            <nav class="flex__header">
+                <ul class="flexb">
+                    <li class="flexb">
+                        <a href="./index.html"class="liste"> Accueil </a>
+                        <a href="#">
+                            <img  class="fleche" src="./images/Expand Arrow.png" alt="fleche bas">
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="./team.html"class="liste border"> A Propos de Nous </a>
+                    </li>
+                    <li class="flexb">
+                        <a href="#"class="liste border"> Menu </a>
+                        <a href="#">
+                            <img  class="fleche" src="./images/Expand Arrow.png" alt="fleche bas">
+                        </a> 
+                    </li>
+                    <li class="flexb">
+                        <a href="#"class="liste border"> Blog </a>
+                        <a href="#">
+                            <img class="fleche" src="./images/Expand Arrow.png" alt="fleche bas">
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="./contacts.html"class="liste border "> Contact </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="tel">
+                <img class="boitier" src="./images/Tel.svg">
+                <p class="numero"> +33 6 13 07 58 95 </p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="main__section">
+            <div class="cotainer">
+                <div class="main__bg">
+                    <div class="main">
+                        <div class="main__decor"></div>
+                        <p class="main-photo__text">From Our Chef</p>
+                        <div class="main__decor"></div>
+                </div>
+                </div>
+                
+        </section>
+        <section>
+            <h1 class="hidden">Restoral</h1>
+            <div class="about-Restoral flex">
+                <div class="about-Restoral__left"></div>
+                <div class="about-Restoral__photo">
+                    <img src="./images/about-1.png" alt="about us">
+                </div>
+                <div class="about-Restoral__description">
+                    <h2 class="about-Restoral__title">About Restoral</h2>
+                    <p class="about-Restoral__text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Rem, ab neque dolorem ex hic aperiam quam porro velit expedita quae, maiores, natus unde cumque quia voluptas adipisci cupiditate distinctio magnam?</p>
+                    <div class="about-Restoral__items flex">
+                        <div class="about-Restoral__burgers">
+                            <span class="about-Restoral__number">20</span>
+                            <p class="about-Restoral__name">burgers sold</p>
+                        </div>
+                        <div class="about-Restoral__pizzas">
+                            <span class="about-Restoral__number">100</span>
+                            <p class="about-Restoral__name">pizzas made</p>
+                        </div>
+                        <div class="about-Restoral__clients">
+                            <span class="about-Restoral__number">64</span>
+                            <p class="about-Restoral__name">clients everyday</p>
+                        </div>
+                    </div>
+                    <button class="footer-button main__button" type="button">see our menu</button>
+                </div>
+            </div>
+        </section> 
+        <section>
+        <div class="container">
         <h1 class="hidden">Restoral</h1>
         <h2 class="hidden"> Advantage</h2>
-        <ul>
-            <li>
+        <ul class="advantage flex">
+            <li class="advantage__list">
                 <span>
-                    <svg width="20" height="20" class="footer-menu__icon" >
+                    <svg width="40" height="40" class="advantage__icon" >
                         <use href="./images/icons.svg#icon-alarm">
                         </use>
                     </svg>
                 </span>
-                <h3>fast delivery</h3>
-                <span class="accent"></span>
-                <p></p>
+                <h3 class="advantage__title">fast delivery</h3>
+                <div class="accent"></div>
+                <p class="advantage__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
-            <li>
+            <li class="advantage__list">
                 <span>
-                    <svg width="20" height="20" class="footer-menu__icon" >
+                    <svg width="40" height="40" class="advantage__icon" >
                         <use href="./images/icons.svg#icon-spoon-knife">
                         </use>
                     </svg>
                 </span>
-                <h3></h3>
-                <span></span>
-                <p></p>
+                <h3 class="advantage__title">fresh food</h3>
+                <div class="accent"></div>
+                <p class="advantage__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
-            <li>
+            <li class="advantage__list">
                 <span>
-                    <svg width="20" height="20" class="footer-menu__icon" >
+                    <svg width="40" height="40" class="advantage__icon" >
                         <use href="./images/icons.svg#icon-trophy">
                         </use>
                     </svg>
                 </span>
-                <h3></h3>
-                <span></span>
-                <p></p>
+                <h3 class="advantage__title">experienced chefs</h3>
+                <div class="accent"></div>
+                <p class="advantage__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
-            <li>
+            <li class="advantage__list">
                 <span>
-                    <svg width="20" height="20" class="footer-menu__icon" >
+                    <svg width="40" height="40" class="advantage__icon" >
                         <use href="./images/icons.svg#icon-fire">
                         </use>
                     </svg>
                 </span>
-                <h3></h3>
-                <span></span>
-                <p></p>
+                <h3 class="advantage__title">a variety of dishes</h3>
+                <div class="accent"></div>
+                <p class="advantage__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             </li>
         </ul>
     </div>
- </section>   
+        </section> 
+        <section>
+            <div class="cotainer pizza-day">
+                <div class="pizza-day__free ">
+                    <!-- <div class="pizza-day__free-decor"></div> -->
+                    <!-- <svg width="20" height="20" class="icon">
+                        <use href="./images/icons.svg#icon-Line">
+                        </use>
+                    </svg> -->
+                    <h2 class="pizza-day__free-title">Free Delivery</h2>
+                    <!-- <div class="pizza-day__free-decor"></div> -->
+                    <!-- <svg width="200" height="2" class="icon">
+                        <use href="./images/icons.svg#icon-Line">
+                        </use>
+                    </svg> -->
+                </div>
+                <h1 class="pizza-day__title">pizza day</h1>
+                <div class=" pizza-day__promo flex">
+                    <span class="pizza-day__price">$1.99</span>
+                    <ul class="pizza-day__item">
+                        <li class="pizza-day__list">Sandwich</li>
+                        <li class="pizza-day__list">Salad</li>
+                        <li class="pizza-day__list">Drink</li>
+                    </ul>
+                </div>
+                <button class="footer-button pizza-day__button" type="submit">order online</button>
+            </div>
+        </section>
+        <section class="our-chefs">
+            <div class="cotainer"> 
+                <h1 class="hidden">Restoral</h1>
+                <h2 class="our-chefs__title">Our Chefs</h2>
+                <ul class="flex">
+                    <li class="our-chefs__items">
+                        <img class="our-chefs__photo" src="./images/team-small-3-250x250.jpg" alt="Orni Stark">
+                        <h3 class="our-chefs__name">Orni Stark</h3>
+                        <p class="our-chefs__position">Founder</p>
+                        <ul class="social our-chefs__social flex">
+                            <li class="social__item">
+                                <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                            <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                            </a>
+                            </li>
+                            <li class="social__item">
+                            <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-google-plus">
+                                        </use>
+                                    </svg>
+                            </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="our-chefs__items">
+                        <img class="our-chefs__photo" src="./images/team-small-3-250x250.jpg" alt="Biltam Robinson">
+                        <h3 class="our-chefs__name">Biltam Robinson</h3>
+                        <p class="our-chefs__position">Head Chef</p>
+                        <ul class="social our-chefs__social flex">
+                            <li class="social__item">
+                                <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                            <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                            </a>
+                            </li>
+                            <li class="social__item">
+                            <a href="#" class="our-chefs__social__link">
+                                
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-google-plus">
+                                        </use>
+                                    </svg>
+                            </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="our-chefs__items">
+                        <img class="our-chefs__photo"  src="./images/team-small-3-250x250.jpg" alt="Rabina Ives">
+                        <h3 class="our-chefs__name">Rabina Ives</h3>
+                        <p class="our-chefs__position">Pastry Chef</p>
+                        <ul class="social our-chefs__social flex">
+                            <li class="social__item">
+                                <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                            <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                            </a>
+                            </li>
+                            <li class="social__item">
+                            <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-google-plus">
+                                        </use>
+                                    </svg>
+                            </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="our-chefs__social__link">
+                                    <svg width="20" height="20" class="our-chefs__social__icon">
+                                        <use href="./images/icons.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="cotainer">
+                <h1>Our Testimonials</h1>
+                <div class="testimonials flex">
+                    <div class="testimonials__item">
+                        <img class="testimonials__photo" src="./images/testimonials-06-104x104.jpg" alt="testimonials">
+                        <h2 class="testimonials__title">The Best Burgers in the Area </h2>
+                        <p class="testimonials__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis impedit laborum vel, nostrum eaque 
+                        odit repellendus voluptatibus repudiandae quis dicta obcaecati dignissimos, sed perspiciatis quidem exercitationem atque illum doloribus.</p>
+                        <p class="testimonials__name">By Emily Wilson</p>
+                    </div>
+                    <div class="testimonials__item">
+                        <img class="testimonials__photo" src="./images/testimonials-06-104x104.jpg" alt="testimonials">
+                        <h2 class="testimonials__title">There are Burgers for Vegetarians</h2>
+                        <p class="testimonials__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis impedit laborum vel, nostrum eaque 
+                        odit repellendus voluptatibus repudiandae quis dicta obcaecati dignissimos, sed perspiciatis quidem exercitationem atque illum doloribus.</p>
+                        <p class="testimonials__name">By Ann Carlson</p>
+                    </div>
+                    <div class="testimonials__item">
+                        <img class="testimonials__photo" src="./images/testimonials-06-104x104.jpg" alt="testimonials">
+                        <h2 class="testimonials__title">Your French Fries are the Best!</h2>
+                        <p class="testimonials__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis impedit laborum vel, nostrum eaque 
+                        odit repellendus voluptatibus repudiandae quis dicta obcaecati dignissimos, sed perspiciatis quidem exercitationem atque illum doloribus.</p>
+                        <p class="testimonials__name">By John Smith </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer >
+        <div class="footer__container"> 
+           <div class="footer-logo">
+                <a class="footer_logo__link" href="">
+                    <img src="./images/logo-inverse-280x60.png" alt="">
+                </a> 
+                <p class="footer_logo__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, quibusdam corrupti? Similique reprehe?</p>
+                <ul class="footer-address">
+                    <li class="footer-address__list"><span class="footer-address--white">Address:</span>267 Park Avenue New York,NY 90210</li>
+                    <li class="footer-address__list"><span class="footer-address--white">Email:</span>info@demolink.org</li>
+                    <li class="footer-address__list"><span class="footer-address--white">Phone:</span>1-800-1234-567</li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <h1 class="hidden">Restoral</h1>
+                <h2 class="footer-menu__title">our menu </h2>
+                <ul class="footer-menu__item flex">
+                    <li class="footer-menu__list">burgers</li>
+                    <li class="footer-menu__list">/</li>
+                    <li class="footer-menu__list">pizzas</li>
+                    <li class="footer-menu__list">/</li>
+                    <li class="footer-menu__list">toasts</li>
+                    <li class="footer-menu__list">/</li>
+                    <li class="footer-menu__list">salads</li>
+                    <li class="footer-menu__list">/</li>
+                    <li class="footer-menu__list">dinks</li>
+                    <li class="footer-menu__list">/</li>
+                    <li class="footer-menu__list">desserts </li>
+                </ul>
+                <h3 class="footer-menu__hoursTitle">opening hours</h3>
+                <div>
+                    <span>
+                        <svg width="20" height="20" class="footer-menu__icon" >
+                            <use href="./images/icons.svg#icon-clock">
+                            </use>
+                        </svg>
+                    </span>
+                    <span class="footer-menu__time">9:00am-7:00pm</span>
+                </div>
+            </div>
+            <div>
+                <form class="footer-form" name="subscribe-form" action="#" autocomplete="off" novalidate>
+                    <label class="footer-form__label" for="subscribe">newsletter</label> 
+                    <div class="footer-form__cta">
+                        <input class="footer-form__input" id="subscribe" type="email" name="subscribe" 
+                        placeholder="Your Email">
+                        <button class="footer-button" type="submit">subscribe</button>
+                    </div>
+                </form>
+                <h3 class="footer-social__title">follow us</h3>
+                <ul class="social flex">
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                               <a href="#" class="social__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                               </a>
+                            </li>
+                            <li class="social__item">
+                               <a href="#" class="social__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-google-plus">
+                                        </use>
+                                    </svg>
+                               </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="#" class="social__link">
+                                    <svg width="20" height="20" class="social__icon">
+                                        <use href="./images/icons.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </li>
+                </ul>
+            </div>   
+        </div>
+    </footer>
 </body>
 </html>
