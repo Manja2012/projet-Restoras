@@ -55,19 +55,28 @@ section{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-
+}
     @media screen and (min-width:480px){
-       width: 480px;
+        .container{
+          width: 480px;  
+        }
+       
     }
 
     @media screen and (min-width:768px){
-       width: 768px;
+        .container{
+           width: 768px; 
+        }
+        
     }
 
     @media screen and (min-width:1200px){
-      width: 1200px;
+        .container{
+            width: 1200px; 
+        }
+     
    }
-}
+
 body {
    font-family: Roboto, sans-serif ;
    background-color: var(--main-background-color);
@@ -112,3 +121,95 @@ footer{
     background-color: var(--footer-background-color);
 }
 
+/* @media screen and (max-width:767px)
+@media screen and (min-width:768px)
+@media screen and (min-width:1200px)
+@media screen and (min-width:768px) and (max-width:1199px) */
+/* .nav_header{
+    @media screen and (max-width:479px){
+        display:none
+    } 
+} */
+
+    @media screen and (max-width:1199px){
+        .nav_header{
+           display: none;  
+        } 
+        .logo__header{
+            
+           margin: 0 auto;
+   
+        }
+        .mobil-menu{
+            margin-left: 15px;
+        }
+        .main__section{
+            display: none; 
+        }
+        .about-Restoral{
+          
+            display: block;
+        }
+        .about-Restoral__left{
+            display: none; 
+        }
+        .about-Restoral__photo{
+            display: none; 
+        }
+        .about-Restoral__description{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .about-Restoral__title{
+            text-align: center;
+        }
+        .about-Restoral__text{
+            text-align: center;
+            width: 100%;
+        }
+        .about-Restoral__items{
+            display: block;
+        }
+        .mobil__button{
+            
+           text-align: center;
+        }
+        .advantage{
+            display: block;  
+        }
+        .advantage__list{
+            width: 100%;
+        }
+        .our-chefs__mobil{
+            display: block;
+        }
+        .our-chefs__items{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .ContainerPartner {
+            display: none; 
+        }
+        .photo{
+            display: none; 
+        }
+        .testimonials{
+            display: block;
+        }
+        .testimonials__item{
+            width: 100%; 
+            margin-bottom: 20px;
+        }
+        .footer-menu{
+            display: none; 
+        }
+        
+        }
+
+
+        @media screen and (min-width:1200px){
+            .mobil-menu{
+                display: none;   
+            } 
+
+        }
