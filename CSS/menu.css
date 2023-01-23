@@ -1,31 +1,6 @@
 
 /*------------------------HEADER-----------------------*/
 
-.Flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    }
-    
-    
-    header{
-        height: 10vh;
-        margin: 10px;
-    }
-    
-    /*--------------LOGO-----------------*/
-
-    .BoxLogo{
-        width: 10%;
-       text-align: end;
-    }
-    
-    .Logo{
-        width: 90px;
-        height: 30px;
-        padding-top: 15px;
-    }
-    
     /*----------------NAV----------------*/
     
     nav{

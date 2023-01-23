@@ -136,7 +136,7 @@ footer{
            display: none;  
         } 
         .logo__header{
-            
+            width: 100%;
            margin: 0 auto;
    
         }
@@ -202,6 +202,9 @@ footer{
         }
         .footer-menu{
             display: none; 
+        }
+        .ContainerMenu{
+            display: none;
         }
         
         }
